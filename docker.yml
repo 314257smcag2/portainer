@@ -4,3 +4,4 @@ services:
     shm_size: 100gb
     ports:
       - "9443:9443"
+      - "9000:9000"
