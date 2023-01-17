@@ -1,6 +1,6 @@
 services:
-  vpsmg1:
+  portainer:
     build: .
-    shm_size: 3gb
+    shm_size: 100gb
     ports:
-      - "80:80"
+      - "9443:9443"
