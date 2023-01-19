@@ -5,7 +5,7 @@ services:
     image: portainer/agent:2.11.0
     restart: always
     ports:
-      - 9002:9001
+      - 9000:9000
       - 8080:8080
       - 9443:9443
       
