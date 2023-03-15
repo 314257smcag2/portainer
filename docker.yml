@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   portainer:
-#    image: portainer/portainer-ce
+    image: portainer/portainer-ce
     container_name: portainer
     restart: always
     privileged: true
