@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   portainer:
-    image: portainer/portainer-ce
+#    image: portainer/portainer-ce
     container_name: portainer
     restart: always
     privileged: true
@@ -10,6 +10,5 @@ services:
       - "8000:8000"
     volumes:
  #     - ./dockerconfig/portainer:/data
- #     - /var/run/docker.sock:/var/run/docker.sock
        - /var/run/docker.sock:/var/run/docker.sock
-       - portainer_data:/data #portainer/portainer-ce
+       - portainer_data:/data portainer/portainer-ce
